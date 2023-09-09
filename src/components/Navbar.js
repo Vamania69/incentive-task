@@ -2,10 +2,10 @@ import React from "react";
 import { RiArrowDropDownLine } from "react-icons/ri";
 const Navbar = () => {
   return (
-    <nav className="navbar flex  p-8 justify-between">
+    <nav className="navbar flex p-4 sm:p-8 justify-between">
       {
         // for mobile view
-        <h2 className="md:hidden">
+        <h2 className="md:hidden text-2xl font-bold mt-4">
           Incentive<span className="text-[#5CCEF5]">.</span>
         </h2>
       }
